@@ -1,25 +1,33 @@
-# Anti-vehicle accident detection model using eyes,face and head gesture moovements
-
-## Project description
+# Anti-vehicle accident detection model using eyes,face and head gesture movements
 ![Main_gif](https://user-images.githubusercontent.com/123289647/222927510-b285f34f-2c23-4f30-b765-7f57dc04671c.gif)
 
+## Instructions 🗂️
+Down below are all the steps that you need to follow in the exact same order as mentioned to run this project on your local machine 
+1. Fork this repository using 
+2. Run this command to clone the repository `git clone https://github.com/47-dev/Anti-Accident-Detection-Model`
+3. Create a new virtual environment using the command `virtualenv env` 
+4. Activate the environment using the command `env\Scripts\activate.bat`
+5. Insall and import all the libraries
+
+
+## Project description 🖊️
 
 ### Overview:
-The objective of this research is to create a Deep Learning-based system that can recognize impending fatal crashes by continuously observing the driver's head, facial, and eye movements. The technology will have the ability to spot indications of driver inattentiveness, concentration, as well as other risky driving habits that can cause collisions.
+The aim of this project is to develop a Deep Learning-based system that can detect approaching fatal crashes by continually monitoring the head, face, and eye movements of the driver. The system will be able to detect signs of driver distraction, lack of focus, and other unsafe driving behaviours that can result in collisions. We seek to develop an AI system that incorporates Deep Learning Algorithms that automatically identify, avoid, and warn on any likelihood of mishaps using the most feasible and efficient way possible to address the current difficulties of mishaps, especially in mountainous locations.
 
 ### Methodology:
-The project will use a combination of computer vision techniques, deep learning algorithms, and sensor data to capture the driver's behavior. The system will track the driver's eye movements using a camera mounted on the dashboard, facial expressions using facial recognition software, and head gesture movements using a gyroscopic sensor.The machine learning algorithm will be trained using a dataset of driving scenarios to identify different patterns of driver behavior that may lead to accidents. The system will then use real-time data to identify if the driver is exhibiting any dangerous behavior and send an alert to the driver to correct the behavior.
+To record the driver's behavior, the initiative will combine video processing methods, neural networks, and Deep Learning. To use a dashboard-mounted camera, face face recognition, and a gyroscopic sensor, the system will monitor the driver's head gestures, eye movements, and facial expressions. A collection of driving scenarios will be used to train the machine learning algorithm on various driving patterns of behavior that may cause an accident. The system will then responsibility practices data to determine whether the motorist is engaging in any risky conduct and notify him or her to stop.
 
 ### Expected Outcome:
-The expected outcome of this project is to develop a reliable and accurate anti-vehicle accident detection system that can help prevent accidents caused by driver drowsiness, distraction, and other dangerous behaviors. The system will help improve road safety and reduce the number of accidents on the roads.
+The objective of this endeavor is to create a trustworthy anti-vehicle accident warning system that can aid in preventing collisions brought on by driver inattention, sleepiness, as well as other risky behaviours. The technology will contribute to increased traffic safety as well as a decrease in incidents.
 
 ### Potential Impact:
-The potential impact of this project is significant as it can help prevent accidents caused by driver drowsiness, distraction, and other dangerous behaviors. It will also help reduce the number of fatalities and injuries on the roads, making driving safer for everyone. The project can be used by car manufacturers, transportation companies, and individuals who want to improve road safety.
+This technology has a big potential effect since it might be able to stop mishaps brought on by distracted driving, drowsy driving, and other risky habits. Also, it will make driving better for every person by lowering the amount of fatalities as well as injuries on the roadways. Automobile makers, transportation providers, and citizens who want to increase traffic safety can all benefit from the effort.
 
-## Code
+## Code 🖥️
 Here is the link that you can use for accesing the code file 👉 https://github.com/47-dev/Anti-Accident-Detection-Model/blob/main/main_Code.ipynb
 
-# Deep Geeks demo video
+# Deep Geeks demo video 📷
 https://link-47-dev.vercel.app/
 
 <details>
