@@ -5,9 +5,13 @@
 Down below are all the steps that you need to follow in the exact same order as mentioned to run this project on your local machine 
 1. Fork this repository using 
 2. Run this command to clone the repository `git clone https://github.com/47-dev/Anti-Accident-Detection-Model`
-3. Create a new virtual environment using the command `conda activate venv/` 
-4. Activate the environment using the command `env\Scripts\activate.bat`
-5. Insall and import all the libraries
+3. Open Vs code in the file repositry in your Local host
+4. Install and import all the libraries in requirment folder
+5. o]Open a new `cmd` in side the repositry and setup anaconda enviorment in your `VsCode`
+6. Create a new virtual environment using the command  `conda activate venv/` 
+7. Once all file is loaded now run `python app.py`
+8. In `Terminal` a local host port detail will occur click `ctrl+click` on the local host link
+9. A web page appears the model is live and ready to use in many ways.
 
 
 ## Project description 🖊️
