@@ -28,6 +28,7 @@ This technology has a big potential effect since it might be able to stop mishap
 Here is the link that you can use for accesing the code file 👉 https://github.com/47-dev/Anti-Accident-Detection-Model/blob/main/main_Code.ipynb
 
 # Deep Geeks demo video 📷
+Link to access  👉  https://link-orpin.vercel.app/
 Link to access 👉 https://link-47-dev.vercel.app/
 
 Competitors had the thrilling opportunity to demonstrate off their talents and ingenuity by creating original answers to real-world issues during the Frosthack hack. We believe that the directions as well as code snippets in the this quickstart guide file will benefit contributors in their initiatives. The demonstration video is an excellent tool for showcasing the functionality and functioning of the developing and emerging during in the hacking.
