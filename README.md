@@ -10,9 +10,7 @@ Using eye, face and head gesture movements.
 
 2.[VS Code IDE](https://code.visualstudio.com/)
 
-3.[Heroku Account](https://heroku.com)
-
-4.[GitCLI](https://git-scm.com/download/win)
+3.[GitCLI](https://git-scm.com/download/win)
 
 Creat a New Enviorment for the Project
 
