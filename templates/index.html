@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anti-Accident-Detection</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cardo&family=Share+Tech+Mono&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .nav_bar_container {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 20%;
+        align-items: center;
+        padding: 0 100px;
+        font-family: "Share Tech Mono", monospace;
+        text-decoration: none;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+      }
+
+      .nav_bar_logo {
+        display: flex;
+        justify-content: center;
+        padding-top: 0.1%;
+        padding-bottom: 0.1%;
+        text-decoration: none;
+        font-size: large;
+        font-size: x-large;
+        text-decoration: none;
+        color: #00ff99;
+        font-weight: 900;
+      }
+
+      .nav_items {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        text-decoration: none;
+        font-size: x-large;
+        background-color: aliceblue;
+        padding: 1.9%;
+        font-weight: 900;
+      }
+
+      .item:hover {
+        background-color: #00ff99;
+        color: #000;
+        border-radius: 10px;
+      }
+
+      .nav_items a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .section {
+        background-color: #00ff99;
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+        text-align: center;
+        color: #000000;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family: "Share Tech Mono", monospace;
+      }
+
+      .web_feed {
+        background-color: #00ff99;
+        height: 88vh;
+        padding-top: 10%;
+        text-align: center;
+        color: #000000;
+        padding: 0 auto;
+        font-size: xx-large;
+      }
+
+      .video {
+      }
+
+      .section_Heading {
+        font-size: 5rem;
+        font-weight: 900;
+        margin-bottom: 20px;
+        font-family: "Share Tech Mono", monospace;
+        gap: 20px;
+      }
+
+      .section2 {
+        background-color: #333;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        padding-top: 4%;
+        text-align: center;
+        color: #ffffff;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      .para {
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-bottom: 20px;
+        font-family: "Share Tech Mono", monospace;
+      }
+
+      .section3 {
+        background-color: #00ff99;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        text-align: center;
+        color: #000000;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      .down-arrow {
+        position: absolute;
+        top: calc(90vh - 60px);
+        left: calc(50% - 14px);
+        width: 0;
+        height: 30px;
+        border: 3px solid;
+        border-radius: 4px;
+      }
+
+      .protoype {
+        font-size: 5rem;
+        font-weight: 900;
+        font-family: "Share Tech Mono", monospace;
+        gap: 20px;
+        padding-top: 10vh;
+      }
+
+      .down-arrow:after {
+        content: " ";
+        position: absolute;
+        top: 12px;
+        left: -10px;
+        width: 16px;
+        height: 16px;
+        border-bottom: 4px solid;
+        border-right: 4px solid;
+        border-radius: 4px;
+        transform: rotateZ(45deg);
+      }
+
+      @keyframes jumpInfinite {
+        0% {
+          margin-top: 0;
+        }
+        50% {
+          margin-top: 20px;
+        }
+        100% {
+          margin-top: 0;
+        }
+      }
+
+      .down-arrow {
+        animation: jumpInfinite 1.5s infinite;
+      }
+
+      .border_span {
+        border: 5px solid blue;
+        height: 50vh;
+        box-sizing: border-box;
+      }
+
+      .video_temp {
+        padding-top: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav_bar">
+      <div class="nav_bar_container">
+        <div class="nav_bar_logo">
+          <a>Anti-Accident-Detection</a>
+        </div>
+        <div class="nav_items">
+          <a href="" class="item">Home</a>
+          <a href="" class="item">About</a>
+          <a href="" class="item">Contact</a>
+          <a href="" class="item">Playground</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h1 class="protoype">DEMO_VIDEO</h1>
+      <div class="video_temp">
+        <video width="320" height="240" autoplay loop muted>
+          <source src="Test_Video_s.mp4" type="video/mp4" />
+          <source src="Test_Video_s.mp4" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="web_feed">
+        <h4>Webcam Feed/Play_ground</h4>
+        <span class="border_span" style="color: blue">
+          <img src="{{ url_for('video_feed') }}" alt="Camera_feed" async />
+        </span>
+      </div>
+      <div class="section_Heading">
+        <!-- <h1 class="heading">Anti-Accident-Detection</h1> -->
+
+        <p>What are we catering?</p>
+      </div>
+    </div>
+
+    <div class="section2">
+      <p class="para">
+        To counter present day challenges of accidents, specially in hilly
+        areas, we aim to build a mechanism which inculcates Deep Learning
+        Algorithms that autonomously detect and alert on any possibility of
+        accidents. This is one of the kind model which imbibes structures of
+        process that work remotely, without any hardware mechanism and with the
+        highest accuracy offered.
+      </p>
+    </div>
+    <button onclick="turnOffAlarm()">Turn off alarm</button>
+  </body>
+</html>
