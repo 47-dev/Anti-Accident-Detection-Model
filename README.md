@@ -5,7 +5,7 @@
 Down below are all the steps that you need to follow in the exact same order as mentioned to run this project on your local machine 
 1. Fork this repository using 
 2. Run this command to clone the repository `git clone https://github.com/47-dev/Anti-Accident-Detection-Model`
-3. Create a new virtual environment using the command `virtualenv env` 
+3. Create a new virtual environment using the command `conda activate venv/` 
 4. Activate the environment using the command `env\Scripts\activate.bat`
 5. Insall and import all the libraries
 
